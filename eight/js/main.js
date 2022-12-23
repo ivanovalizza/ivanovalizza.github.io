@@ -9,7 +9,7 @@ const initialState = [
 let s1 = initialState
 new GameView(s1)
 
-canvas.addEventListener('click' , moveView)
+canvas.addEventListener('click', moveView)
 
 
 function moveView(event)
